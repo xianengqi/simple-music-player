@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>本地播放器🎵</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <!-- Content here -->
+      <h1>添加音乐到曲库</h1>
+      <div id="musicList" class="mb-2">您还未选择任何音乐文件</div>
+      <button type="button" id="select-music" class="btn btn-outline-primary btn-lg btn-block mt-4">
+        选择音乐
+      </button>
+      <button type="button" id="add-music" class="btn btn-primary btn-lg btn-block mt-4">
+        导入音乐
+      </button>
+    </div>
+    <script>
+      require('./addMusic.js')
+    </script>
+  </body>
+</html>
